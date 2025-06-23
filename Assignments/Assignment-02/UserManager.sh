@@ -22,7 +22,7 @@ case "$function" in
         sudo usermod -aG "$group_name" "$user_name"
         sudo addUser "$user_name"
 
-        echo "✅ User '$user_name' added to group '$group_name' successfully."
+        echo "✅✅ User '$user_name' added to group '$group_name' successfully."
         #echo -e "❌ Invalid function. addUser <group_name> <user_name>"
     ;;
 
